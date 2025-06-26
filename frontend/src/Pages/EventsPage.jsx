@@ -1,21 +1,15 @@
-import { Link } from "react-router-dom";
+import { useLoaderData } from "react-router-dom"; // import useLoader Data
 
-const dummyEvents = [
-  { id: "e1", title: "React Workshop" },
-  { id: "e2", title: "Vue Conference" },
-];
+import EventsList from "../components/EventsList";
 
-export default function EventPage() {
+function EventsPage() {
+  const events = useLoaderData(); // saving the returned value
   return (
     <>
-      <h1>EventPage</h1>
-      <ul>
-        {dummyEvents.map((ev) => (
-          <Link key={ev.id} to={ev.id}>
-            {ev.title}
-          </Link>
-        ))}
-      </ul>
+      {/* passing the value to a prop to be used */}
+      <EventsList events={events} />
     </>
   );
 }
+
+export default EventsPage;
