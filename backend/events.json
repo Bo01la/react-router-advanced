@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"another event !!!!","image":"https://picsum.photos/211/140","date":"2025-06-27","description":"qqqq","id":"dc2a2431-fc85-41d5-a3de-c1a87c03ee92"},{"title":"a new event","image":"https://picsum.photos/211/140","date":"2025-06-27","description":"a new event","id":"f42429fd-7b2b-4683-8a49-57e0a47a3734"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
